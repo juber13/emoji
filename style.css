@@ -1,0 +1,79 @@
+html , body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background: #424242;
+    
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+
+.wrapper{
+    width: 80%;
+    margin: 50px auto;
+    background: #ddd;
+    color: #000;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.wrapper .container{
+    padding: 1rem;
+}
+
+.input-field{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form{
+    display: flex;
+}
+
+input{
+    width: 80%;
+    padding: 0.6rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+button{
+    padding: 0.8rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.emoji-container{
+    width: 65%;
+    padding: 1rem 0;
+    margin: 20px auto;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.emoji-parent{
+    margin-top: 10px;
+    background: #000;
+    padding: 1rem;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.hl{color: red;}
+.normal{color: blue;}
